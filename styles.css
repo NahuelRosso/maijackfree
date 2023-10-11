@@ -168,3 +168,75 @@ footer {
         margin: 10px 0;
     }
 }
+
+
+
+
+
+/* Estilo para el botón de hamburguesa */
+.menu-toggle {
+    display: none; /* Oculta el botón en pantallas más grandes */
+  }
+  /* Estilo para ocultar el botón de hamburguesa cuando el menú está activo */
+.menu-toggle.active {
+    display: none;
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 8px;
+  }
+  
+  /* Estilo para el menú desplegable */
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  /* Estilo para el botón de cierre */
+.close-menu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Estilo para el contenedor del menú y el botón de cierre */
+  .menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  
+    .menu-container.active {
+      display: flex;
+    }
+  
+    .close-menu.active {
+      display: block;
+    }
+  }
+  
