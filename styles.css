@@ -159,7 +159,7 @@ footer {
 }
 
 /* Estilos para dispositivos móviles (responsive) */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .menu {
         flex-direction: column;
     }
@@ -167,4 +167,4 @@ footer {
     .menu li {
         margin: 10px 0;
     }
-} */
+}
