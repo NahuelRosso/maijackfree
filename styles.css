@@ -3,7 +3,7 @@ body {
     text-align: center;
     margin: 0%;
     padding-top: 180px;
-    
+    background-color: #e8d6c0;
     
 }
 p{
@@ -65,7 +65,7 @@ nav {
 /* Estilos del carrusel */
 .slider {
     max-width: 100%;
-    height: 500px;
+    height: 750px;
     overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ nav {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    height: 500px;
+    height: 800px;
 }
 
 .carousel div {
@@ -84,7 +84,7 @@ nav {
 
 .carousel img {
     max-width: 100%;
-    height: 500px;
+    height: 800px;
     width: 100%;
 }
 
@@ -101,7 +101,8 @@ nav {
 /* Estilos adicionales (ajusta según tus necesidades) */
 
 .recetas{
-    background-color: #F4ECE0;
+    background-color: #b06d46;
+    padding: 20px;
 }
 /* Estilos de las columnas */
 .contenido {
@@ -120,7 +121,7 @@ nav {
 }
 .imagen-contenido {
     max-width: 100%; /* Ajusta el tamaño máximo que desees */
-    height: auto;
+    height: 100%;
   }
 
 /* Estilos del Footer */
