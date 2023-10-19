@@ -3,7 +3,7 @@ $(document).ready(function() {
     // Selecciona el contenedor del carrusel y llama a la función slick()
     $('.carousel').slick({
         autoplay: true,
-        dots: true,
+        dots: false,
         arrows: true,
         infinite: true,
         speed: 500,
