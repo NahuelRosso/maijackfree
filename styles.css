@@ -40,8 +40,9 @@ nav {
 }
 
 .logo img {
-    width: 100px;
-    margin-left: 50px;
+    width: 75px;
+    margin-left: 90px;
+   
 }
 
 .menu {
@@ -109,11 +110,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start
-    
-    
+    align-items: flex-start  
 }
-
 
 .columna {
     flex: 1;
@@ -273,4 +271,9 @@ footer {
 .icono-flotante img {
     width: 100px; /* Ajusta el ancho según el tamaño de tu imagen */
     height: auto; /* Ajusta la altura automáticamente según el ancho */
+}
+
+.phone{
+    width: 2%;
+    height: 2%;
 }
